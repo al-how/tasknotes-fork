@@ -26,3 +26,12 @@ I'm considering making a fork of the TaskNotes plugin (or my own plugin from scr
 	- statusDescription good for at a glance where I'm at with a task
 	- priority seems too granular. i can decide priority at task assessment breaks
 	- the eisenhower matrix from TaskGenius is an itneresting idea, but it would take a UI of bases to replicate (should be rather easy)
+
+## What I want to be able to do
+I want a task management system that both allows the simplicity of in-line tasks using the - [ ] characters and the robustness of being able to manage tasks in Bases.
+### Requirements
+- Every task should be its own note
+- every task should carry its own set of properties mentioned above
+- I should be able to navigate through context via wikilinks/backlinks from the task itself
+- i should be able to expose my tasks to an LLM via an API or MCP
+- i should be able to separate work tasks from personal tasks through tags or @context properties
